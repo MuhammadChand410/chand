@@ -63,7 +63,7 @@ export default function Header() {
           </button>
 
           {/* Login / Logout — Desktop */}
-          {session ? (
+          {/* {session ? (
             <Link href="/login"
               onClick={() => signOut({ callbackUrl: "/login" })}
               className="hidden md:flex items-center gap-2 px-[18px] py-[9px] rounded-xl text-[13px] font-bold text-white no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_rgba(91,141,238,.35)]"
@@ -82,7 +82,7 @@ export default function Header() {
                 style={{ background: "linear-gradient(135deg,var(--a1),var(--a2))" }}>
                 Logout
               </Link>
-          )}
+          )} */}
 
           <a href="#contact"
             className="hidden md:inline-flex items-center px-[22px] py-[9px] rounded-xl text-[13px] font-bold text-white no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_rgba(91,141,238,.35)]"
